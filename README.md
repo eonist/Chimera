@@ -74,24 +74,6 @@ Here's a quick overview of each script:
 *   **`Packages/remove_package_resolved.sh`**: Deletes all `Package.resolved` files.
 *   **`Packages/remove_build_folders.sh`**: Deletes all `.build` folders.
 
-## How to Use
-
-1.  **Go to your project's root in the terminal.**
-2.  **Run the CI script:**
-
-    ```bash
-    ./run_ci.sh 
-    ```
-
-    Or, run scripts individually:
-
-    ```bash
-    ./build_schemes.sh
-    ./Packages/run_all_scripts.sh
-    ```
-
-3.  **Check the output in your terminal.**
-
 ## Cleanup Scripts Explained
 
 *   **`remove_package_resolved.sh`**:  Forces Swift Package Manager to re-download dependencies, ensuring you have the latest versions.
