@@ -2,7 +2,7 @@
 
 > A powerful CI tool for Xcode and Swift packages that runs locally in your terminal.
 
-<img src="https://github.com/user-attachments/assets/ffdbdd9f-896b-4662-8e43-5a0582d4dba7" width="512">
+<img src="https://github.com/user-attachments/assets/ffdbdd9f-896b-4662-8e43-5a0582d4dba7" width="256">
 
 ## Description:
 
