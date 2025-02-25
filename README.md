@@ -32,7 +32,7 @@ This is a simple CI system using bash scripts to automate building, testing, and
 2. Drag the run_ci.sh script onto your terminal.app icon and it will run everything automagically ✨
 3. If you want to be fancy, you can drag the run_ci_w_spinner.sh script onto your terminal.app icon and it will run everything with a fancy spinner.
 
-<img src="https://github.com/user-attachments/assets/f836566e-cc31-4433-96a6-791af45c01b1" width="50%">
+<img src="https://github.com/user-attachments/assets/f836566e-cc31-4433-96a6-791af45c01b1" width="78px">
 
 ## File Structure:
 Place the scripts like this in your xcode project folder:
