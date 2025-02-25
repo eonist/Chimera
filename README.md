@@ -138,4 +138,6 @@ You can easily integrate these scripts into your GitHub Actions workflow to auto
 ## Todo: 
 
 - Try to run this on github actions
-- Create a github action that builds and tests an array of remote projects
+- Create a github action that builds and tests an array of remote projects.
+- Add example project that runs in github action in the cloud
+- Log progress. And failures in a .log file
