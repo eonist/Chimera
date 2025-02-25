@@ -15,4 +15,9 @@ cd .. # Go back to the project root
 end_time=$(date +%s)
 elapsed_time=$((end_time - start_time))
 
-echo "CI script finished in ${elapsed_time} seconds."
+# Calculate hours, minutes, and seconds
+hours=$((elapsed_time / 3600))
+minutes=$(( (elapsed_time % 3600) / 60 ))
+seconds=$((elapsed_time % 60))
+
+echo "CI script finished in ${hours} hours, ${minutes} minutes, and ${seconds} seconds."
