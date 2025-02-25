@@ -1,13 +1,18 @@
-# Chimera
+# Chimera 🐉
 
 > A powerful CI tool for Xcode and Swift packages that runs locally in your terminal.
 
 <img src="https://github.com/user-attachments/assets/ffdbdd9f-896b-4662-8e43-5a0582d4dba7" width="256">
 
+> [!Warning]
+> 🐲 Chimera might turn your Macbook into a portable furnace.  She's a fire-breathing beast, after all! 🔥 Consider "Macs Fan Control" from [crystalidea.com](https://crystalidea.com/macs-fan-control) to avoid spontaneous combustion.
+
 ## Description:
 
 This is a simple CI system using bash scripts to automate building, testing, and cleaning your Xcode projects and Swift packages locally in your terminal. It can also be used to build and test projects in the cloud. With github actions, you can run these scripts on a remote server.
 
+> [!NOTE]
+> Chimera supports both local and remote CI. While cloud-based CI offers scalability, local CI provides faster feedback and closely mirrors your production environment.
 
 ## Problem
 
@@ -35,6 +40,18 @@ Place the scripts like this in your xcode project folder:
     ├── remove_package_resolved.sh
     └── remove_build_folders.sh
 ```
+
+> [!Note]
+> Customize your CI! Chimera provides a foundation, but you can tailor it to your project's specific needs. Integrate tools for linting, static analysis, security scanning, and more. Consider adding steps for:
+>
+> - **Code Formatting:** Use `swiftformat` or similar tools to enforce consistent code style.
+> - **Static Analysis:** Employ `swiftlint` or other static analyzers to catch potential bugs and enforce coding standards.
+> - **Security Audits:** Integrate tools to scan for security vulnerabilities in your code.
+> - **Dependency Management:** Automate dependency updates and vulnerability checks.
+> - **Automated Testing:** Expand your test suite to cover more scenarios and edge cases.
+> - **AI-Powered Code Review:** Use AI tools to assist with code reviews and identify potential issues.
+>
+> The possibilities are endless! Adapt Chimera to create a CI pipeline that perfectly fits your workflow.
 
 
 ## Scripts
