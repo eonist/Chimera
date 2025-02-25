@@ -26,6 +26,13 @@ This is a simple CI system using bash scripts to automate building, testing, and
 2.  **Specific Task Scripts:**  Individual scripts are provided for testing Xcode schemes, testing Swift packages, and cleaning build artifacts, allowing for targeted automation.
 3.  **Cleanup Scripts for Fresh Builds:** Scripts are included to remove `Package.resolved` and `.build` folders, ensuring clean builds, dependency updates, and disk space savings.
 
+## Local usage and installation:
+
+1. Just drag and drop the scripts into your Xcode project folder and package folder. See structure below.
+2. Drag the run_ci.sh script onto your terminal.app icon and it will run everything automagically ✨
+3. If you want to be fancy, you can drag the run_ci_w_spinner.sh script onto your terminal.app icon and it will run everything with a fancy spinner.
+
+
 ## File Structure:
 Place the scripts like this in your xcode project folder:
 
