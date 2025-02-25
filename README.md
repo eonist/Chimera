@@ -11,8 +11,7 @@
 
 This is a simple CI system using bash scripts to automate building, testing, and cleaning your Xcode projects and Swift packages locally in your terminal. It can also be used to build and test projects in the cloud. With github actions, you can run these scripts on a remote server.
 
-> [!NOTE]
-> Chimera supports both local and remote CI. While cloud-based CI offers scalability, local CI provides faster feedback and closely mirrors your production environment.
+<img src="https://github.com/user-attachments/assets/41ea5324-0a96-4b52-ad4d-03675eda95e6" width="342">
 
 ## Problem
 
@@ -26,7 +25,8 @@ This is a simple CI system using bash scripts to automate building, testing, and
 2.  **Specific Task Scripts:**  Individual scripts are provided for testing Xcode schemes, testing Swift packages, and cleaning build artifacts, allowing for targeted automation.
 3.  **Cleanup Scripts for Fresh Builds:** Scripts are included to remove `Package.resolved` and `.build` folders, ensuring clean builds, dependency updates, and disk space savings.
 
-<img src="https://github.com/user-attachments/assets/41ea5324-0a96-4b52-ad4d-03675eda95e6" width="342">
+> [!NOTE]
+> Chimera supports both local and remote CI. While cloud-based CI offers scalability, local CI provides faster feedback and closely mirrors your production environment.
 
 ## Local usage and installation:
 
