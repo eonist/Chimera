@@ -26,6 +26,8 @@ This is a simple CI system using bash scripts to automate building, testing, and
 2.  **Specific Task Scripts:**  Individual scripts are provided for testing Xcode schemes, testing Swift packages, and cleaning build artifacts, allowing for targeted automation.
 3.  **Cleanup Scripts for Fresh Builds:** Scripts are included to remove `Package.resolved` and `.build` folders, ensuring clean builds, dependency updates, and disk space savings.
 
+<img src="https://github.com/user-attachments/assets/41ea5324-0a96-4b52-ad4d-03675eda95e6" width="342">
+
 ## Local usage and installation:
 
 1. Just drag and drop the scripts into your Xcode project folder and package folder. See structure below.
